@@ -22,7 +22,7 @@ function createMap() {
     houston = L.marker([29.7604, -95.3698], {icon: teardrop}).bindPopup('<b>Climate Hazards for Houston, TX</b><br>Extreme hot days, Drought, Heat wave, Flash flood, Cyclone, Storm Surge'),
     lancasterP = L.marker([40.0370, -76.3055], {icon: teardrop}).bindPopup('<b>Climate Hazards for Lancaster, PA</b><br>Drought, Air-borne disease, Extreme hot days, Subsidence'),
     nashville = L.marker([36.1627, 86.7816], {icon: teardrop}).bindPopup('<b>Climate Hazards for Nashville, TN</b><br>Heat wave, Flash flood, Extreme cold days'),
-    nyc = L.marker([40.7831, -73.97812], {icon: teardrop}).bindPopup('<b>Climate Hazards for New York City, NY</b><br>Rain storm, Extreme einter conditions, Heat wave, Coastal Flood'),
+    nyc = L.marker([40.7831, -73.97812], {icon: teardrop}).bindPopup('<b>Climate Hazards for New York City, NY</b><br>Rain storm, Extreme winter conditions, Heat wave, Coastal Flood'),
     pheonix = L.marker([33.4484, -112.0740], {icon: teardrop}).bindPopup('<b>Climate Hazards for Pheonix, AZ</b><br>Extreme hot days, Vector-bourne disease, Heat wave, Flash flood, Drought'),
     portlandMe = L.marker([43.6591, -70.2568], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, ME, NY</b><br>Co2 concentrations, Coastal flood, Cyclones<br>Extreme winter conditions, Flash flood, Storm surge'),
     portland = L.marker([45.5051, -122.6750], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, OR</b><br>Drought, Heat wave, Landslide, Flash flood'),
