@@ -63,7 +63,7 @@ function createMap() {
     //info popup
     var infoPopup = L.popup()
         .setLatLng([39.8355, -99.0909])
-        .setContent("<b>Tips For Using This Map</b><br>Hover over temperature symbol for more info<br>Click on cities icon for more info<br>Turn cities off/on in the layers button<br>Cycle through the data with the sliding control or buttons")
+        .setContent("<b>Tips For Using This Map</b><br>Hover over temperature symbol for more information<br>Click on cities icon for more information<br>Turn cities off/on in the layers button<br>Cycle through the data with the sliding control or buttons")
         .openOn(map);
 
     //call getData ()
