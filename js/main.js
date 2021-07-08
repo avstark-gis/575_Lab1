@@ -17,18 +17,18 @@ function createMap() {
      
     //cities for overlay as individual markers
     var chicago = L.marker([41.8781, -87.6298], {icon: teardrop}).bindPopup('<b>Climate Hazards for Chicago, IL</b><br>Flash Flood, River Flood, Extreme Snow Events'),
-    denver = L.marker([39.7392, -104.9903], {icon: teardrop}).bindPopup('<b>Climate Hazards for Denver, CO</b><br>Extreme hot days, Drought, Hail'),
-    fortLauderdale = L.marker([26.125, -80.1003], {icon: teardrop}).bindPopup('<b>Climate Hazards for Fort Lauderdale, FL</b><br>Cyclone, Salt water intrusion, Permanent inundation'),
-    houston = L.marker([29.7604, -95.3698], {icon: teardrop}).bindPopup('<b>Climate Hazards for Houston, TX</b><br>Extreme hot days, Drought, Heat wave, Flash flood, Cyclone, Storm Surge'),
-    lancasterP = L.marker([40.0370, -76.3055], {icon: teardrop}).bindPopup('<b>Climate Hazards for Lancaster, PA</b><br>Drought, Air-borne disease, Extreme hot days, Subsidence'),
-    nashville = L.marker([36.1627, 86.7816], {icon: teardrop}).bindPopup('<b>Climate Hazards for Nashville, TN</b><br>Heat wave, Flash flood, Extreme cold days'),
-    nyc = L.marker([40.7831, -73.97812], {icon: teardrop}).bindPopup('<b>Climate Hazards for New York City, NY</b><br>Rain storm, Extreme winter conditions, Heat wave, Coastal Flood'),
-    pheonix = L.marker([33.4484, -112.0740], {icon: teardrop}).bindPopup('<b>Climate Hazards for Pheonix, AZ</b><br>Extreme hot days, Vector-bourne disease, Heat wave, Flash flood, Drought'),
-    portlandMe = L.marker([43.6591, -70.2568], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, ME, NY</b><br>Co2 concentrations, Coastal flood, Cyclones<br>Extreme winter conditions, Flash flood, Storm surge'),
-    portland = L.marker([45.5051, -122.6750], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, OR</b><br>Drought, Heat wave, Landslide, Flash flood'),
-    sanFrancisco = L.marker([37.7749, -122.4194], {icon: teardrop}).bindPopup('<b>Climate Hazards for San Francisco, CA</b><br>Salt water intrusion, Coastal flood, Drought, Heat wave <br> Permanent inundation, Rain storm, Extreme hot days'),
-    santaFe = L.marker([35.6870, -105.9378], {icon: teardrop}).bindPopup('<b>Climate Hazards for Santa Fe, NM</b><br>Drought, Forest fire, Flash flood'),
-    twinCities = L.marker([44.9375, -93.2010], {icon: teardrop}).bindPopup('<b>Climate Hazards for Twin Cities, MN</b><br>Rain Storm, Drought, Extreme winter conditions');
+    denver = L.marker([39.7392, -104.9903], {icon: teardrop}).bindPopup('<b>Climate Hazards for Denver, CO</b><br>Extreme Hot Days, Drought, Hail'),
+    fortLauderdale = L.marker([26.125, -80.1003], {icon: teardrop}).bindPopup('<b>Climate Hazards for Fort Lauderdale, FL</b><br>Cyclone, Salt Water Intrusion, Permanent Inundation'),
+    houston = L.marker([29.7604, -95.3698], {icon: teardrop}).bindPopup('<b>Climate Hazards for Houston, TX</b><br>Extreme hot days, Drought, Heat Wave, Flash flood, Cyclone, Storm Surge'),
+    lancasterP = L.marker([40.0370, -76.3055], {icon: teardrop}).bindPopup('<b>Climate Hazards for Lancaster, PA</b><br>Drought, Air-borne Disease, Extreme Hot Days, Subsidence'),
+    nashville = L.marker([36.1627, 86.7816], {icon: teardrop}).bindPopup('<b>Climate Hazards for Nashville, TN</b><br>Heat Wave, Flash Flood, Extreme Cold Days'),
+    nyc = L.marker([40.7831, -73.97812], {icon: teardrop}).bindPopup('<b>Climate Hazards for New York City, NY</b><br>Rain Storm, Extreme Winter Conditions, Heat Wave, Coastal Flood'),
+    pheonix = L.marker([33.4484, -112.0740], {icon: teardrop}).bindPopup('<b>Climate Hazards for Pheonix, AZ</b><br>Extreme Hot Days, Vector-bourne Disease, Heat Wave, Flash Flood, Drought'),
+    portlandMe = L.marker([43.6591, -70.2568], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, ME</b><br>Co2 Concentrations, Coastal Flood, Cyclones<br>Extreme Winter Conditions, Flash Flood, Storm Surge'),
+    portland = L.marker([45.5051, -122.6750], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, OR</b><br>Drought, Heat Wave, Landslide, Flash Flood'),
+    sanFrancisco = L.marker([37.7749, -122.4194], {icon: teardrop}).bindPopup('<b>Climate Hazards for San Francisco, CA</b><br>Salt Water Intrusion, Coastal Flood, Drought, Heat Wave <br> Permanent Inundation, Rain Storm, Extreme Hot Days'),
+    santaFe = L.marker([35.6870, -105.9378], {icon: teardrop}).bindPopup('<b>Climate Hazards for Santa Fe, NM</b><br>Drought, Forest Fire, Flash Flood'),
+    twinCities = L.marker([44.9375, -93.2010], {icon: teardrop}).bindPopup('<b>Climate Hazards for Twin Cities, MN</b><br>Rain Storm, Drought, Extreme Winter Conditions');
     
     //fix for the icons part 2 of 2 is choosing that icon in above layers
 
