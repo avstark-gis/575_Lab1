@@ -23,7 +23,7 @@ function createMap() {
     lancasterP = L.marker([40.0370, -76.3055], {icon: teardrop}).bindPopup('<b>Climate Hazards for Lancaster, PA</b><br>Drought, Air-borne Disease, Extreme Hot Days, Subsidence'),
     nashville = L.marker([36.1627, 86.7816], {icon: teardrop}).bindPopup('<b>Climate Hazards for Nashville, TN</b><br>Heat Wave, Flash Flood, Extreme Cold Days'),
     nyc = L.marker([40.7831, -73.97812], {icon: teardrop}).bindPopup('<b>Climate Hazards for New York City, NY</b><br>Rain Storm, Extreme Winter Conditions, Heat Wave, Coastal Flood'),
-    pheonix = L.marker([33.4484, -112.0740], {icon: teardrop}).bindPopup('<b>Climate Hazards for Pheonix, AZ</b><br>Extreme Hot Days, Vector-bourne Disease, Heat Wave, Flash Flood, Drought'),
+    phoenix = L.marker([33.4484, -112.0740], {icon: teardrop}).bindPopup('<b>Climate Hazards for Phoenix, AZ</b><br>Extreme Hot Days, Vector-borne Disease, Heat Wave, Flash Flood, Drought'),
     portlandMe = L.marker([43.6591, -70.2568], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, ME</b><br>Co2 Concentrations, Coastal Flood, Cyclones<br>Extreme Winter Conditions, Flash Flood, Storm Surge'),
     portland = L.marker([45.5051, -122.6750], {icon: teardrop}).bindPopup('<b>Climate Hazards for Portland, OR</b><br>Drought, Heat Wave, Landslide, Flash Flood'),
     sanFrancisco = L.marker([37.7749, -122.4194], {icon: teardrop}).bindPopup('<b>Climate Hazards for San Francisco, CA</b><br>Salt Water Intrusion, Coastal Flood, Drought, Heat Wave <br> Permanent Inundation, Rain Storm, Extreme Hot Days'),
@@ -33,7 +33,7 @@ function createMap() {
     //fix for the icons part 2 of 2 is choosing that icon in above layers
 
     //creating layer group for cities
-    var overlayCities = L.layerGroup([chicago, denver, fortLauderdale, houston, lancasterP, nashville, pheonix, portland, portlandMe, nyc, sanFrancisco, santaFe, twinCities]);
+    var overlayCities = L.layerGroup([chicago, denver, fortLauderdale, houston, lancasterP, nashville, phoenix, portland, portlandMe, nyc, sanFrancisco, santaFe, twinCities]);
    
     //add Mapbox base tilelayer
     var mapboxMap = 
